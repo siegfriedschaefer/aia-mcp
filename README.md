@@ -5,6 +5,7 @@ AIA's mcp server
 ```bash
 cd server
 echo '{"jsonrpc":"2.0","method":"foo","id":1}' | node build/index.js | jq .
+```
 
 ## how to build monorepo
 
