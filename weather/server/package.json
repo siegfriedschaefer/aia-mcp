@@ -1,0 +1,26 @@
+
+
+{
+  "type": "module",
+  "bin": {
+    "mcp-server": "./build/index.js"
+  },
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "author": "SiggiS",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.1",
+    "zod": "^3.25.76"
+  }
+}
